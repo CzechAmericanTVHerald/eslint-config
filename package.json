@@ -1,0 +1,27 @@
+{
+  "name": "@catvusa/eslint-config",
+  "version": "1.0.0",
+  "description": "Shared ESLint config used in Catvusa",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/catvusa/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/catvusa/eslint-config/issues"
+  },
+  "homepage": "https://github.com/catvusa/eslint-config",
+  "author": "Michal Ozogán <michal@ozogan.eu>",
+  "license": "Apache-2.0",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslintconfig"
+  ],
+  "scripts": {
+    "lint": "eslint *.js --config index.js"
+  },
+  "dependencies": {
+    "@socifi/eslint-config": "^1.10.0"
+  }
+}
